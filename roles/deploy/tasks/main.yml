@@ -1,0 +1,11 @@
+- name: get artifacts
+  pause:
+    seconds: 10
+
+- name: create configs
+  pause:
+    seconds: 15
+
+- name: copy artifacts and configs to destination servers
+  pause:
+    seconds: 30

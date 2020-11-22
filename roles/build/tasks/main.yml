@@ -1,0 +1,11 @@
+- name: get source code
+  pause:
+    seconds: 10
+
+- name: build
+  pause:
+    seconds: 60
+
+- name: copy artifacts
+  pause:
+    seconds: 5
