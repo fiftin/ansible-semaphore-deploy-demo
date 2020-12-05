@@ -1,3 +1,6 @@
+- name: include test tasks
+  include_tasks: "{{ test_tasks }}.yml"
+
 - name: get artifacts
   pause:
     seconds: 2
